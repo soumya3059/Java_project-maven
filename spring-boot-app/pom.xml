@@ -6,9 +6,10 @@
 
     <groupId>com.abhishek</groupId>
     <artifactId>spring-boot-demo</artifactId>
-    <version>1.0</version>
+    <version>0.0.1-SNAPSHOT</version>
+    <packaging>jar</packaging>
 
-    <name>spring-boot-demo</name>
+     <name>spring-boot-demo</name>
     <url></url>
 
     <parent>
@@ -61,7 +62,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
-                <version>3.8.0</version>
+                <version>3.6.3</version>
                 <configuration>
                     <source>${java.version}</source>
                     <target>${java.version}</target>
